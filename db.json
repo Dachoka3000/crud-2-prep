@@ -1,0 +1,28 @@
+{
+  "shoes": [
+    {
+      "name": "Sneaker",
+      "image": "https://images.pexels.com/photos/2529157/pexels-photo-2529157.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "price": "450",
+      "id": 1
+    },
+    {
+      "name": "sandals",
+      "image": "https://images.pexels.com/photos/4996772/pexels-photo-4996772.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "price": "1350",
+      "id": 4
+    },
+    {
+      "name": "Ballet shoes",
+      "image": "https://images.pexels.com/photos/5154372/pexels-photo-5154372.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "price": "4500",
+      "id": 5
+    },
+    {
+      "name": "converse",
+      "image": "https://media.istockphoto.com/id/171224469/photo/canvas-shoes.jpg?b=1&s=612x612&w=0&k=20&c=U9NLTutbuQ_L3HABoaa9Bsb_U3iJYw1QmKCBe0H3KWM=",
+      "price": "234",
+      "id": 6
+    }
+  ]
+}

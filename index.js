@@ -1,14 +1,9 @@
-
-
 function postShoe(){
-    let name = document.getElementById("name").value
-    let image = document.getElementById("image").value
-    let price = document.getElementById("price").value
 
     let newObject={
-        name:name,
-        image:image,
-        price:price
+        name:document.getElementById("name").value,
+        image:document.getElementById("image").value,
+        price:document.getElementById("price").value
     }
 
     fetch("http://localhost:8080/shoes", {
@@ -29,7 +24,7 @@ form.addEventListener("submit",function(event){
 })
 
 function updateShoe(id){
-    let updatedObect = {
+    let updatedObject = {
         name:"boots",
         image:"https://images.pexels.com/photos/5214139/pexels-photo-5214139.jpeg?auto=compress&cs=tinysrgb&w=600",
         price:5600
@@ -38,7 +33,7 @@ function updateShoe(id){
     fetch(`http://localhost:8080/shoes/${id}`,{
         method:"PUT",
         headers:{"Content-Type":"application/json"},
-        body:JSON.stringify(updatedObect)
+        body:JSON.stringify(updatedObject)
     })
     .then(response=>console.log(response.status))
     .catch(error=>console.log(error))
